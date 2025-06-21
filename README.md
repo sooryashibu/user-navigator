@@ -117,3 +117,10 @@ Use the "Go Back" button on the User Detail page to return to the Users list.
 
 ## Screenshots
 Included screenshots of Home, About, Users List, and User Detail pages here.
+
+## Author
+soorya shibu
+Email: brijithlooka@gmail.com
+GitHub: https://github.com/sooryashibu
+Live Demo: [https://sooryashibu.github.io/signup-form-validation/](https://user-navigator.vercel.app/)
+
