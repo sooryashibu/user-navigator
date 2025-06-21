@@ -40,34 +40,35 @@ The application highlights clean componentization, responsive design using Tailw
 
 ## Project Structure
 
+
 user-navigator/
 │
-├── public/ # Static assets (if any)
-├── src/
-│ ├── components/ # Reusable UI components
-│ │ ├── Header.jsx # Navigation bar component
-│ │ └── Footer.jsx # Footer component
-│ │
-│ ├── data/ # Static data files
-│ │ └── users.js # Mock user data array with 50 users
-│ │
-│ ├── pages/ # Route-based pages
-│ │ ├── Home.jsx # Home page component
-│ │ ├── About.jsx # About page component
-│ │ ├── Users.jsx # Users list page component
-│ │ └── UserDetail.jsx # User detail page component
-│ │
-│ ├── App.jsx # Main app component with route definitions
-│ ├── main.jsx # Entry point for ReactDOM rendering
-│ └── index.css # Tailwind CSS and global styles
+├── public/ # Static assets (favicon, etc.)
 │
-├── tailwind.config.js # Tailwind CSS config file
-├── vite.config.js # Vite build tool config
-├── package.json # NPM dependencies and scripts
-└── README.md # This file
+├── src/ # Source code
+│ ├── components/ # Shared components
+│ │ ├── Header.jsx # Top navigation bar
+│ │ └── Footer.jsx # Footer component
+│
+│ ├── data/ # Static user data
+│ │ └── users.js # Array of 50 mock users
+│
+│ ├── pages/ # Route components
+│ │ ├── Home.jsx # Home page
+│ │ ├── About.jsx # About page
+│ │ ├── Users.jsx # Users list page
+│ │ └── UserDetail.jsx # Dynamic user detail page
+│
+│ ├── App.jsx # App layout and routing
+│ ├── main.jsx # React app entry point
+│ └── index.css # Tailwind base styles
+│
+├── tailwind.config.js # Tailwind configuration
+├── vite.config.js # Vite dev server config
+├── package.json # Project metadata and dependencies
+└── README.md # Project documentation
 
 
----
 
 ## Technologies Used
 
