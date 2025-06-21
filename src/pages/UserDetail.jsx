@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import users from '../data/users'
+import users from "../data/users";
 
 
 const UserDetail = () => {
