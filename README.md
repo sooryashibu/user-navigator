@@ -122,5 +122,5 @@ Included screenshots of Home, About, Users List, and User Detail pages here.
 soorya shibu
 Email: brijithlooka@gmail.com
 GitHub: https://github.com/sooryashibu
-Live Demo: [https://sooryashibu.github.io/signup-form-validation/](https://user-navigator.vercel.app/)
+Live Demo: https://user-navigator.vercel.app/
 
